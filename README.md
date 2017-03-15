@@ -11,3 +11,4 @@ Compiling: ```g++ -std=c++11 *.cpp -o main.o```
 Run:       ```./main.o```
   
 Tests will be ran first, then the UI is shown.
+Documentation: https://tuokri.github.io/sqm-calc/files.html
