@@ -31,3 +31,5 @@
 # gcov
 *.gcno
 *.gcov
+*.gcda
+
