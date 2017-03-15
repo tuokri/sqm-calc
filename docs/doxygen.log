@@ -1,0 +1,74 @@
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.cpp:321: warning: no matching class member found for 
+  template <>
+  bool ConcreteSquareMatrix::operator==(const ElementarySquareMatrix< IntElement > &m) const
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.cpp:342: warning: no matching class member found for 
+  template <>
+  bool SymbolicSquareMatrix::operator==(const ElementarySquareMatrix< Element > &m) const
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.cpp:364: warning: no matching class member found for 
+  template <>
+  ConcreteSquareMatrix & ConcreteSquareMatrix::operator+=(const ElementarySquareMatrix< IntElement > &m)
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.cpp:378: warning: no matching class member found for 
+  template <>
+  ConcreteSquareMatrix & ConcreteSquareMatrix::operator-=(const ElementarySquareMatrix< IntElement > &m)
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.cpp:392: warning: no matching class member found for 
+  template <>
+  ConcreteSquareMatrix & ConcreteSquareMatrix::operator*=(const ElementarySquareMatrix< IntElement > &m)
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.cpp:426: warning: no matching class member found for 
+  template <>
+  ConcreteSquareMatrix & ConcreteSquareMatrix::operator/=(const ElementarySquareMatrix< IntElement > &m)
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.cpp:42: warning: no matching class member found for 
+  template <>
+  IntElement & IntElement::operator+=(const TElement< int > &tel)
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.cpp:49: warning: no matching class member found for 
+  template <>
+  IntElement & IntElement::operator-=(const TElement< int > &tel)
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.cpp:56: warning: no matching class member found for 
+  template <>
+  IntElement & IntElement::operator*=(const TElement< int > &tel)
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.cpp:63: warning: no matching class member found for 
+  template <>
+  IntElement & IntElement::operator/=(const TElement< int > &tel)
+
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:40: warning: argument 'Element' of command @param is not found in the argument list of operator<<(std::ostream &os, const Element &e)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.cpp:10: warning: The following parameters of operator<<(std::ostream &os, const Element &e) are not documented:
+  parameter 'e'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.hpp:66: warning: argument 'SquareMatrix' of command @param is not found in the argument list of operator<<(std::ostream &os, const SquareMatrix &e)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.cpp:95: warning: The following parameters of operator<<(std::ostream &os, const SquareMatrix &e) are not documented:
+  parameter 'e'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:40: warning: argument 'Element' of command @param is not found in the argument list of Element::operator<<(std::ostream &os, const Element &e)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:45: warning: The following parameters of Element::operator<<(std::ostream &os, const Element &e) are not documented:
+  parameter 'e'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.hpp:123: warning: argument 'Reference' of command @param is not found in the argument list of ElementarySquareMatrix< T >::ElementarySquareMatrix(const ElementarySquareMatrix< T > &m)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.hpp:126: warning: The following parameters of ElementarySquareMatrix::ElementarySquareMatrix(const ElementarySquareMatrix< T > &m) are not documented:
+  parameter 'm'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.hpp:143: warning: argument 'Rvalue' of command @param is not found in the argument list of ElementarySquareMatrix< T >::ElementarySquareMatrix(ElementarySquareMatrix< T > &&m)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.hpp:146: warning: The following parameters of ElementarySquareMatrix::ElementarySquareMatrix(ElementarySquareMatrix< T > &&m) are not documented:
+  parameter 'm'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.hpp:66: warning: argument 'SquareMatrix' of command @param is not found in the argument list of SquareMatrix::operator<<(std::ostream &os, const SquareMatrix &e)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/squarematrix.hpp:71: warning: The following parameters of SquareMatrix::operator<<(std::ostream &os, const SquareMatrix &e) are not documented:
+  parameter 'e'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:80: warning: argument 'Reference' of command @param is not found in the argument list of TElement< T >::TElement(const TElement< T > &)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:85: warning: argument 'Rvalue' of command @param is not found in the argument list of TElement< T >::TElement(const TElement< T > &&tel)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:88: warning: The following parameters of TElement::TElement(const TElement< T > &&tel) are not documented:
+  parameter 'tel'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:169: warning: argument 'i' of command @param is not found in the argument list of TElement< T >::operator*=(const TElement< T > &tel)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:173: warning: The following parameters of TElement::operator*=(const TElement< T > &tel) are not documented:
+  parameter 'tel'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:157: warning: argument 'i' of command @param is not found in the argument list of TElement< T >::operator+=(const TElement< T > &tel)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:161: warning: The following parameters of TElement::operator+=(const TElement< T > &tel) are not documented:
+  parameter 'tel'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:163: warning: argument 'i' of command @param is not found in the argument list of TElement< T >::operator-=(const TElement< T > &tel)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:167: warning: The following parameters of TElement::operator-=(const TElement< T > &tel) are not documented:
+  parameter 'tel'
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:175: warning: argument 'i' of command @param is not found in the argument list of TElement< T >::operator/=(const TElement< T > &tel)
+/home/tuomo/Documents/Programming/ooj-2017-054/vt8/element.hpp:180: warning: The following parameters of TElement::operator/=(const TElement< T > &tel) are not documented:
+  parameter 'tel'
